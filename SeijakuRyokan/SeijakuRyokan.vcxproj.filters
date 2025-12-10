@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ビルド">
+      <UniqueIdentifier>{F1DF9757-14C3-43FA-8525-6665FEDE7BA5}</UniqueIdentifier>
+      <Extensions>props</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\pc_src">
+      <UniqueIdentifier>{bfd257a1-2657-4175-8ba3-d3fe121bde8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\pc_src\Graphics">
+      <UniqueIdentifier>{34b85705-de5e-4fe0-a9b4-79ce497068f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\pc_src\Systems">
+      <UniqueIdentifier>{d5efe5b4-5657-427d-9d66-fff6c2586d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\pc_src\Scenes">
+      <UniqueIdentifier>{f908fc73-0d25-4c9c-95b7-03db588a7815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソースファイル\pc_src">
+      <UniqueIdentifier>{b98903e9-c2d4-423f-8716-9b97cfe6b02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\pc_src\Systems">
+      <UniqueIdentifier>{b41d9106-3006-41de-be29-72c6ccef61c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\pc_src\Scenes">
+      <UniqueIdentifier>{5a365cd2-5bef-4ddf-ac2c-95ef8a19f6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\pc_src\Graphics">
+      <UniqueIdentifier>{60635e56-628b-4ecd-a09a-a6aa5c5066ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\switch_src">
+      <UniqueIdentifier>{e10b9e26-e74e-454c-a111-002672abe037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\switch_src\Graphics">
+      <UniqueIdentifier>{ac0c6aaa-a72b-41e4-a86c-fec33702f80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\switch_src\Scenes">
+      <UniqueIdentifier>{55dcc66c-9368-4301-b718-0ab44eb04eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\switch_src\Systems">
+      <UniqueIdentifier>{205238f6-f5b6-49aa-afd1-63dc21488b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\common_src">
+      <UniqueIdentifier>{a2a94745-bf72-4142-88e6-ee00a780e056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common_src">
+      <UniqueIdentifier>{1bf2ff2f-1add-41af-b903-67f14992dbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\common_src\GameObject">
+      <UniqueIdentifier>{2eb5b8fd-8906-4865-84ef-f3f3d4c8e426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common_src\GameObject">
+      <UniqueIdentifier>{be33b0d4-9db7-40d5-8e47-5be49f0f0854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\pc_src\Input">
+      <UniqueIdentifier>{c5bb7fa5-e491-445c-98a0-8e3a132104b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\pc_src\Input">
+      <UniqueIdentifier>{832442ff-1ca6-4c3b-98ff-652b14c38ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\common_src\System">
+      <UniqueIdentifier>{a377d1aa-17f1-4335-a405-ebcaf45799ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common_src\System">
+      <UniqueIdentifier>{6ade3588-b85a-4869-81b1-33d69f6f39af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\common_src\Game">
+      <UniqueIdentifier>{38fc1892-09f8-46cf-bf43-6110e7167334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common_src\Game">
+      <UniqueIdentifier>{cae39789-e005-40f6-b6b7-ede205a8b3c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pc_src\pc_main.cpp">
+      <Filter>ソースファイル\pc_src</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\System\DirectX.cpp">
+      <Filter>ソースファイル\pc_src\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\System\Time.cpp">
+      <Filter>ソースファイル\pc_src\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\System\Window.cpp">
+      <Filter>ソースファイル\pc_src\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\Graphics\Sprite.cpp">
+      <Filter>ソースファイル\pc_src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\Graphics\SpriteDrawer.cpp">
+      <Filter>ソースファイル\pc_src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\Graphics\texture.cpp">
+      <Filter>ソースファイル\pc_src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\Graphics\DirectXGraphics.cpp">
+      <Filter>ソースファイル\pc_src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\constants.cpp">
+      <Filter>ソースファイル\common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\GameObject\Guest.cpp">
+      <Filter>ソースファイル\common_src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Map.cpp">
+      <Filter>ソースファイル\common_src</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\Input\XInputGamepad.cpp">
+      <Filter>ソースファイル\pc_src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\System\PathFinder.cpp">
+      <Filter>ソースファイル\common_src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\System\ScheduleManager.cpp">
+      <Filter>ソースファイル\common_src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\System\ScheduleGenerator.cpp">
+      <Filter>ソースファイル\common_src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\System\MapLoader.cpp">
+      <Filter>ソースファイル\common_src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\System\ScheduleLoader.cpp">
+      <Filter>ソースファイル\common_src\System</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Game\Game.cpp">
+      <Filter>ソースファイル\common_src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Game\Game.UI.cpp">
+      <Filter>ソースファイル\common_src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Game\Game.Round.cpp">
+      <Filter>ソースファイル\common_src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Game\Game.itinerary.cpp">
+      <Filter>ソースファイル\common_src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Game\GameSound.cpp">
+      <Filter>ソースファイル\common_src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="common_src\Game\Game.Tutorial.cpp">
+      <Filter>ソースファイル\common_src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="pc_src\Input\DirectInputGamepad.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pc_src\System\DirectX.h">
+      <Filter>ヘッダー ファイル\pc_src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\System\Time.h">
+      <Filter>ヘッダー ファイル\pc_src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\System\Window.h">
+      <Filter>ヘッダー ファイル\pc_src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\Graphics\sprite.h">
+      <Filter>ヘッダー ファイル\pc_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\Graphics\SpriteDrawer.h">
+      <Filter>ヘッダー ファイル\pc_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\Graphics\texture.h">
+      <Filter>ヘッダー ファイル\pc_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\system.h">
+      <Filter>ヘッダー ファイル\switch_src\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\GraphicsHelper.h">
+      <Filter>ヘッダー ファイル\switch_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\sprite.h">
+      <Filter>ヘッダー ファイル\switch_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\texture.h">
+      <Filter>ヘッダー ファイル\switch_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\main.h">
+      <Filter>ヘッダー ファイル\switch_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\IGraphics.h">
+      <Filter>ヘッダー ファイル\common_src</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\Graphics\DirectXGraphics.h">
+      <Filter>ヘッダー ファイル\pc_src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\OpenGLGraphics.h">
+      <Filter>ヘッダー ファイル\switch_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\IApplication.h">
+      <Filter>ヘッダー ファイル\common_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\constants.h">
+      <Filter>ヘッダー ファイル\common_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\IGamepad.h">
+      <Filter>ヘッダー ファイル\common_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\GameObject\Guest.h">
+      <Filter>ヘッダー ファイル\common_src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\GameObject\GameObject.h">
+      <Filter>ヘッダー ファイル\common_src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\Input\XInputGamepad.h">
+      <Filter>ヘッダー ファイル\pc_src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\PathFinder.h">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\ScheduleManager.h">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\ScheduleGenerator.h">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\Map.h">
+      <Filter>ヘッダー ファイル\common_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\MapLoader.h">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\ScheduleLoader.h">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\sound.h">
+      <Filter>ヘッダー ファイル\switch_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\json.hpp">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\System\fontSDF.h">
+      <Filter>ヘッダー ファイル\common_src\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\Game\Game.h">
+      <Filter>ヘッダー ファイル\common_src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\Game\GameSound.h">
+      <Filter>ヘッダー ファイル\common_src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\SwitchGamepad.h">
+      <Filter>ヘッダー ファイル\switch_src</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_src\controller.h">
+      <Filter>ヘッダー ファイル\switch_src</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\Game\Game.Winlog.h">
+      <Filter>ヘッダー ファイル\common_src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="pc_src\Input\DirectInputGamepad.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="common_src\VectorTypes.h">
+      <Filter>ヘッダー ファイル\pc_src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Application.arm.ilp32.nmeta" />
+    <CustomBuild Include="Application.aarch64.lp64.nmeta" />
+    <CustomBuild Include="NintendoSDK_Application.bmp">
+      <Filter>リソース ファイル</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
